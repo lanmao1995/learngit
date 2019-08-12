@@ -1,52 +1,52 @@
-body{
+body {
     margin:0;
     padding:0;
     font-size:10px;
     background: #E0E0E0;
 }
-blockquote{
+blockquote {
     margin:0;
     padding:0;
     word-break:break-all;
     color: aliceblue;
 }
-img{
+img {
     width:40px;
 }
-.onefourpage{
+.onefourpage {
     border:1px solid white; 
     background: white;
     display:inline-block;
     width:20%;
     margin-left:20px;
 }
-.middlebody{
+.middlebody {
     border-top:1px solid gray;
     border-bottom:1px solid gray;
 }
-.topimg{
+.topimg {
     display:inline-block;
 }
-.phonetime{
+.phonetime {
     display:inline-block;
 }
-.moreselect{
+.moreselect {
     display:inline-block;
     margin:0px 0px 0px 85px;
 }
-h1{
+h1 {
     padding-top:5px;
     font-size:5px;
     color: blue;
 }
-.agent11{
+.agent11 {
     border-radius:10px;
     background: #00caca;
     width:70%;
     text-align:right;
     margin:0px 0px 0px auto;
 }
-.user11{
+.user11 {
     border-radius:10px;
     padding-top:15px;
     background-color: #00caca;
@@ -56,7 +56,7 @@ h1{
     text-align:left;
     margin:0px auto 0px 0px;
 }
-.agent22{
+.agent22 {
     border-radius:10px;
     background-color: #00caca;
     width:70%;
@@ -65,7 +65,7 @@ h1{
     text-align:right;
     margin:0px 0px 0px auto;
 }
-.user22{
+.user22 {
     border-radius:10px;
     background-color: #00caca;
     width:30%;
@@ -74,20 +74,20 @@ h1{
     text-align:left;
     margin:0px auto 0px 0px;
 }
-.iconmessage,.iconheadset,.iconexit{
+.iconmessage,.iconheadset,.iconexit {
     display:inline-block;
 }
-.iconmessage{
+.iconmessage {
     width:20%;
     text-align:left;
     margin:0px auto 0px 0px;
 }
-.iconheadset{
+.iconheadset {
     text-align:center;
     margin:0px auto 0px auto;
     width:30%;
 }
-.iconexit{
+.iconexit {
     width:20%;
     text-align:right;
     margin:0px 0px 0px auto;
