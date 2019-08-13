@@ -1,28 +1,25 @@
 body {
-    margin:0;
-    padding:0;
-    font-size:10px;
+    margin: 0;
+    padding: 0;
     background: #E0E0E0;
 }
-blockquote {
-    margin:0;
-    padding:0;
-    word-break:break-all;
-    color: aliceblue;
-}
 img {
-    width:40px;
+    width: 40px;
 }
 .onefourpage {
-    border:1px solid white; 
+    border: 1px solid white; 
     background: white;
-    display:inline-block;
-    width:20%;
-    margin-left:20px;
+    display: inline-block;
+    width: 20%;
+    margin-left: 20px;
 }
+.topbody{
+    position: relative;
+}
+
 .middlebody {
-    border-top:1px solid gray;
-    border-bottom:1px solid gray;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
 }
 .topimg {
     display:inline-block;
@@ -31,64 +28,53 @@ img {
     display:inline-block;
 }
 .moreselect {
-    display:inline-block;
-    margin:0px 0px 0px 85px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 10px;
 }
 h1 {
-    padding-top:5px;
-    font-size:5px;
+    padding-top: 5px;
+    font-size: 5px;
     color: blue;
 }
-.agent11 {
-    border-radius:10px;
-    background: #00caca;
-    width:70%;
-    text-align:right;
-    margin:0px 0px 0px auto;
+.chat{
+    font-size: 10px;
 }
-.user11 {
-    border-radius:10px;
-    padding-top:15px;
-    background-color: #00caca;
-    width:30%;
-    margin:0;
-    padding:0;
-    text-align:left;
-    margin:0px auto 0px 0px;
+.agent {
+    text-align: right
 }
-.agent22 {
-    border-radius:10px;
-    background-color: #00caca;
-    width:70%;
-    margin:0;
-    padding:0;
-    text-align:right;
-    margin:0px 0px 0px auto;
-}
-.user22 {
-    border-radius:10px;
-    background-color: #00caca;
-    width:30%;
-    margin:0;
-    padding:0;
-    text-align:left;
-    margin:0px auto 0px 0px;
-}
-.iconmessage,.iconheadset,.iconexit {
+.chat p{
     display:inline-block;
+    background-color:#00e3e3;
+    color: aliceblue;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 5px;
 }
-.iconmessage {
-    width:20%;
-    text-align:left;
-    margin:0px auto 0px 0px;
+.agent p{
+    text-align: left;
+    border-bottom-left-radius: 10px;
+    max-width: 80%;
 }
-.iconheadset {
-    text-align:center;
-    margin:0px auto 0px auto;
-    width:30%;
+.user p{
+    border-bottom-right-radius: 10px;
 }
-.iconexit {
-    width:20%;
-    text-align:right;
-    margin:0px 0px 0px auto;
+.footbody{
+    margin:0 auto;
+    text-align: center;
+}
+.footpicture{
+    margin:0 auto;
+    text-align: center;
+    display:inline-block;
+    border-radius: 50%;
+    background-color: bisque;
+}
+.footpicture img{
+    width: 30px;
+    padding: 10px;
+}
+.headsetpicture img{
+    width: 45px;
 }
