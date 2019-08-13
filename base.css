@@ -12,14 +12,15 @@ img {
     display: inline-block;
     width: 20%;
     margin-left: 20px;
+    border-radius: 10px;
 }
 .topbody{
     position: relative;
 }
 
 .middlebody {
-    border-top: 1px solid gray;
-    border-bottom: 1px solid gray;
+    border-top: 1px solid rgb(235, 235, 235);
+    border-bottom: 1px solid rgb(235, 233, 233);
 }
 .topimg {
     display:inline-block;
@@ -29,14 +30,14 @@ img {
 }
 .moreselect {
     position: absolute;
-    top: 5px;
+    top: 10px;
     right: 5px;
-    font-size: 10px;
+    font-size: 8px;
 }
 h1 {
-    padding-top: 5px;
-    font-size: 5px;
+    font-size: 10px;
     color: blue;
+    padding-bottom: 5px;
 }
 .chat{
     font-size: 10px;
@@ -61,19 +62,23 @@ h1 {
     border-bottom-right-radius: 10px;
 }
 .footbody{
-    margin:0 auto;
+    list-style: none;
     text-align: center;
+    margin: 20px auto;
 }
 .footpicture{
+    display:inline-block;
     margin:0 auto;
     text-align: center;
     display:inline-block;
     border-radius: 50%;
-    background-color: bisque;
+    background-color:white;
+    font-size: 0;
+    padding: 4px;
+    box-shadow: 4px 4px 4px #888888;
 }
 .footpicture img{
     width: 30px;
-    padding: 10px;
 }
 .headsetpicture img{
     width: 45px;
