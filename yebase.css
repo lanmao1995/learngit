@@ -228,6 +228,9 @@
 .workefficiency31,.workefficiency32,.workefficiency41,.workefficiency42{
     display: inline-block;
 }
+.workefficiency31 p,.workefficiency32 p{
+    margin-top: 8px;
+}
 .workefficiency32,.workefficiency42{
     text-align: right;
 }
@@ -253,25 +256,8 @@
     margin-bottom: 15px;
     font-size: 10px;
 }
-.footexp{
-    text-align: center;
-}
-.footexp p{
-    width: 62px;
-}
-.capability1circle1{
-    position:absolute;
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    border: 3px solid grey;
-    padding: 0;
-    margin: 0;
-}
 .footexp1{
-    margin-top: 75px;
     text-align: center;
-    width: 60px;
 }
 .capability1circle1 p{
     text-align: center;
@@ -280,7 +266,6 @@
     line-height: 40px;
 }
 .userstatusp{
-    margin-bottom: 7px;
     color: rgba(240, 248, 255, 0.555);
     font-size: 5px;
     display: flex;
@@ -740,7 +725,7 @@
     border: 3px solid rgb(183,99,117);
     border-left: transparent;
     transform-origin: left center;
-    transform: rotate(-81deg);
+    transform: rotate(-108.72deg);
 }
 .workquality25{
     position: relative;
@@ -800,7 +785,7 @@
     border: 3px solid rgb(183,99,117);
     border-left: transparent;
     transform-origin: left center;
-    transform: rotate(-100deg);
+    transform: rotate(-141.12deg);
 }
 .footuserimg1{
     position: relative;
@@ -854,4 +839,64 @@
     border-left: transparent;
     transform-origin: left center;
     transform: rotate(-81deg);
+}
+.capability1circle1{
+    position: relative;
+}
+.capability1circle1 p{
+    font-size: 15px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.capability1circle11{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 3px solid grey;
+    margin: 0;
+    padding: 0;
+}
+.box-left10{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 33px;
+    height: 66px;
+    clip: rect(0 33px 66px 0);
+    overflow: hidden;
+}
+.box-right10{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 33px;
+    height: 66px;
+    overflow: hidden;
+    clip: rect(0 33px 66px 0);
+}
+.circle-left10{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 30px;
+    height: 60px;
+    border-radius:50px 0 0 50px;
+    border: 3px solid rgb(0, 174, 255);
+    border-right: transparent;
+    transform-origin: right center;
+    transform: rotate(180deg);
+}
+.circle-right10{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 30px;
+    height: 60px;
+    border-radius:0 50px 50px 0;
+    border: 3px solid rgb(0, 174, 255);
+    border-left: transparent;
+    transform-origin: left center;
+    transform: rotate(-180deg);
 }
