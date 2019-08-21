@@ -1,4 +1,4 @@
-.totalbody{
+.total-body{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -7,18 +7,21 @@
     background-size: 50px 50px;
     font-family: Arial, Helvetica, sans-serif;
 }
-.topbody{
+.top-body{
     height: 20px;
     width: 100%;
     color: white;
-    position: relative;
     background-color: black;
     margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
 }
-.topuser{
-    display: inline-block;
+.top-list{
+    list-style: none;
+    display: flex;
+    margin-bottom: 2px;
 }
-.topmore{
+.top-more{
     width: 15px;
     height: 2px;
     border-top: 2px solid white;
@@ -27,26 +30,25 @@
     padding: 3px 0;
     background-color: white;
     margin-left: 5px;
+    margin-top: 3px;
 }
-.topmain{
-    margin-left: 5px;
+.top-main{
     font-size: 10px;
+    margin-top: 3px;
 }
-.topchoose{
-    font-size: 5px;
-    margin-left: 5px;
+.top-choose{
+    font-size: 6px;
+    margin-right: 500px;
 }
 .username{
-    font-size: 7px;
-    position: absolute;
-    right: 0;
-    bottom: 0;
+    font-size: 6px;
+    margin-right: 5px;
 }
-.footbody{
+.foot-body{
     display: flex;
     margin-bottom: 10px;
 }
-.footuserimg{
+.foot-img{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -61,7 +63,7 @@
     padding-left: 20px;
     padding-right: 20px;
 }
-.footuserimg img{
+.foot-img img{
     width: 60px;
     height: 60px;
     display: flex;
@@ -70,7 +72,7 @@
     justify-content: center;
     overflow: hidden;
 }
-.username1{
+.user-name1{
     text-align: center;
     font-size: 7px;
     margin-top: 5px;
@@ -81,56 +83,41 @@
     margin-top: 5px;
     padding-left: 20px;
     padding-right: 20px;
+    display: flex;
+
+}
+.sex-detail1,.sex-detail2,.sex-detail3{
+    flex-grow: 1;
 }
 .sex-picture{
-    flex-grow:1;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 21px;
+    margin-bottom: 21px;
 }
 .sex-picture img{
-    width: 15px;
-    height: 15px;
+    width: 20px;
+    height: 20px;
 }
-.sex-detail{
-    display: flex;
-    justify-content: space-around;
-    font-size: 20px;
-    margin-bottom: 5px;
-    justify-content: center;
-}
-.sex-detail2 {
-    display: flex;
-    justify-content: space-around;
-    color: white;
-}
-.sex-detail2 p{
-    font-size: 2px;
-    text-align: center;
-}
-.userage{
+.user-age{
     border-left: 1px solid rgb(104,109,115);
     color: white;
-    flex-grow:1;
     text-align: center;
 }
-.userpoint{
+.user-age p,.user-point p{
+    font-size: 20px;
+}
+.user-img2 p,.user-age2 p,.user-point2 p{
+    font-size: 6px;
+    color: white;
+    text-align: center;
+}
+.user-point{
     color: rgb(90,197,252);
     border-left: 1px solid rgb(104,109,115);
-    flex-grow:1;
     text-align: center;
 }
-.userimg2{
-    flex-grow:1;
-    padding-right: 5px;
-}
-.userage2{
-    flex-grow:1;
-    padding-right: 5px;
-}
-.userpoint2{
-    flex-grow:1;
-    padding-right: 5px;
-}
-.logintime{
+.login-time{
     text-align: center;
     color: #ffffff;
     font-size: 8px;
@@ -171,11 +158,10 @@
     display: flex;
     flex-direction: row;
     flex-wrap:wrap;
-    margin-left: 10px;
-    padding-left: 10px;
-    padding-right: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
-.userstatus{
+.user-status{
     width: 15%;
     text-align: center;
     border-left: 0.5px solid rgb(104,109,115);
@@ -245,7 +231,7 @@
 .workefficiency3,.workefficiency4{
     display: flex;
     justify-content: space-between;
-    padding-right: 35px;
+    margin-right: 35px;
     margin-bottom: 10px;
 }
 .workefficiency31,.workefficiency32,.workefficiency41,.workefficiency42{
@@ -260,19 +246,18 @@
 .marketcp{
     flex: 0 0 40%;
     border-left: 0.5px solid rgb(104,109,115);
-    padding-left: 30px;
     margin-bottom: 10px;
 }
 .marketcp1{
     margin-bottom: 10px;
     font-size: 10px;
+    margin-left: 10px;
 }
 .marketcp2{
     display: flex;
     justify-content:space-between;
-    margin-top: 40px;
-    margin-left: 10px;
-    padding-top: 20px;
+    margin-top: 50px;
+    margin-left: 30px;
 }
 .workquality1{
     margin-top: 18px;
@@ -288,28 +273,28 @@
     color: aliceblue;
     line-height: 40px;
 }
-.userstatus-p{
+.user-statusp{
     color: rgba(240, 248, 255, 0.555);
     font-size: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.userstatus2{
+.user-status2{
     color: rgb(0, 174, 255);
     font-size: 15px;
     margin-bottom: 10px;
 }
-.userstatus3{
+.user-status3{
     font-size: 7px;
     margin-bottom: 15px;
 }
-.userstatus5{
+.user-status5{
     font-size: 7px;
     margin-bottom: 20px;
     margin-top: 5px;
 }
-.userstatus7{
+.user-status7{
     font-size: 7px;
     margin-bottom: 15px;
     margin-top: 5px;
@@ -323,15 +308,14 @@
     margin-top: 3px;
     border-top: 0.5px solid rgb(104,109,115);
 }
-.workquality2,.workquality3{
+.workquality2{
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-bottom: 5px;
+    justify-content: space-between;
 }
-.workquality3 p{
+.work-num p{
     color: white;
-    font-size: 5px;
+    font-size: 7px;
+    text-align: center;
 }
 .capability1-circle2{
     position: relative;
@@ -391,7 +375,7 @@
     transform-origin: left center;
     transform: rotate(-120.96deg);
 }
-.userstatus41{
+.user-status41{
     position: relative;
     display: flex;
     align-items: center;
@@ -403,7 +387,7 @@
     margin: 0;
     padding: 0;
 }
-.userstatus41 p{
+.user-status41 p{
     font-size: 15px;
     color: white;
 }
@@ -449,7 +433,7 @@
     transform-origin: left center;
     transform: rotate(-21.96deg);
 }
-.userstatus61{
+.user-status61{
     position: relative;
     width: 60px;
     height: 60px;
@@ -461,7 +445,7 @@
     align-items: center;
     justify-content: center;
 }
-.userstatus61 p{
+.user-status61 p{
     font-size: 15px;
     color: white;
 }
@@ -797,7 +781,7 @@
     transform-origin: left center;
     transform: rotate(-141.12deg);
 }
-.footuserimg1{
+.foot-img1{
     position: relative;
     width: 60px;
     height: 60px;
