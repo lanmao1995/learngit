@@ -5,6 +5,7 @@
     background-color: rgb(15,20,24);
     background-image: linear-gradient(rgb(25, 38, 49) 0.3px, transparent 0),linear-gradient(to right, rgb(25, 38, 49) 0.3px, transparent 0);
     background-size: 50px 50px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .topbody{
     height: 20px;
@@ -57,8 +58,8 @@
     background-color: rgb(60, 60, 60);
     margin-bottom: 10px;
     opacity: 0.8;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .footuserimg img{
     width: 60px;
@@ -76,42 +77,46 @@
     margin-bottom: 5px;
     color: white;
 }
-.usersexmore{
+.user-sexm{
     margin-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
-.sexdetail img{
+.sex-detail img{
     width: 15px;
     height: 15px;
 }
-.sexdetail{
+.sex-detail{
     display: flex;
     justify-content: space-between;
-    font-size: 15px;
+    font-size: 20px;
+    margin-bottom: 5px;
 }
-.sexdetail2 {
+.sex-detail2 {
     display: flex;
     justify-content: space-between;
     color: white;
 }
-.sexdetail2 p{
+.sex-detail2 p{
     font-size: 2px;
 }
 .userage{
-    padding-left: 10px;
-    border-left: 1px solid black;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-left: 1px solid rgb(104,109,115);
     color: white;
 }
 .userpoint{
-    padding-left:15px;
+    padding-left:10px;
     color: rgb(90,197,252);
-    border-left: 1px solid black;
+    border-left: 1px solid rgb(104,109,115);
 }
 .logintime{
     text-align: center;
-    color: white;
-    font-size: 5px;
+    color: #ffffff;
+    font-size: 8px;
     border-bottom: 1px solid rgb(104,109,115);
-    margin-top: 10px;
+    margin-top: 13px;
     padding-bottom: 15px;
     margin-bottom: 15px;
 }
@@ -120,17 +125,17 @@
     color: rgb(224, 224, 224);
     margin-bottom: 2px;
 }
-.useractexplain{
+.user-actep{
     color: rgb(89,159,196);
     font-size: 10px;
     margin-bottom: 15px;
 }
-.userrecordexplain{
+.user-recordep{
     color: rgb(186,108,83);
     font-size: 10px;
     margin-bottom: 15px;
 }
-.userpiontexplain{
+.user-piontep{
     color: rgb(183,99,117);
     font-size: 8px;
     margin-top: 5px;
@@ -142,19 +147,18 @@
 .userinformation{
     width: 20%;
 }
-.textmessage{
+.text-message{
     width: 65%;
     display: flex;
     flex-direction: row;
     flex-wrap:wrap;
     margin-left: 10px;
     padding-left: 10px;
-    padding-right: 10px;
+    padding-right: 15px;
 }
 .userstatus{
     width: 15%;
     text-align: center;
-    padding-left: 10px;
     border-left: 0.5px solid rgb(104,109,115);
 }
 .members1{
@@ -234,17 +238,17 @@
 .workefficiency32,.workefficiency42{
     text-align: right;
 }
-.marketingcapability{
+.marketcp{
     flex: 0 0 40%;
     border-left: 0.5px solid rgb(104,109,115);
     padding-left: 30px;
     margin-bottom: 10px;
 }
-.marketingcapability1{
+.marketcp1{
     margin-bottom: 10px;
     font-size: 10px;
 }
-.marketingcapability2{
+.marketcp2{
     display: flex;
     justify-content:space-between;
     margin-top: 40px;
@@ -256,16 +260,16 @@
     margin-bottom: 15px;
     font-size: 10px;
 }
-.footexp1{
+.foot-exp1{
     text-align: center;
 }
-.capability1circle1 p{
+.capability1-circle1 p{
     text-align: center;
     font-size: 10px;
     color: aliceblue;
     line-height: 40px;
 }
-.userstatusp{
+.userstatus-p{
     color: rgba(240, 248, 255, 0.555);
     font-size: 5px;
     display: flex;
@@ -275,6 +279,7 @@
 .userstatus2{
     color: rgb(0, 174, 255);
     font-size: 15px;
+    margin-bottom: 10px;
 }
 .userstatus3{
     font-size: 7px;
@@ -282,15 +287,18 @@
 }
 .userstatus5{
     font-size: 7px;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
+    margin-top: 5px;
 }
 .userstatus7{
     font-size: 7px;
     margin-bottom: 15px;
+    margin-top: 5px;
 }
-.userstatus11{
+.user-status11{
     font-size: 8px;
     margin-bottom: 15px;
+    color: white;
 }
 .workquality{
     margin-top: 3px;
@@ -306,17 +314,11 @@
     color: white;
     font-size: 5px;
 }
-.capability1circle2{
+.capability1-circle2{
     position: relative;
-}
-.capability1circle2 p{
-    font-size: 15px;
-    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-.capability1circle21{
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -324,10 +326,14 @@
     margin: 0;
     padding: 0;
 }
+.capability1-circle2 p{
+    font-size: 15px;
+    color: white;
+}
 .box-left1{
     position: absolute;
-    left: 0px;
-    top: 0px;
+    left: -3px;
+    top: -3px;
     width: 33px;
     height: 66px;
     clip: rect(0 33px 66px 0);
@@ -335,8 +341,8 @@
 }
 .box-right1{
     position: absolute;
-    right: 0px;
-    top: 0px;
+    right: -3px;
+    top: -3px;
     width: 33px;
     height: 66px;
     overflow: hidden;
@@ -368,27 +374,24 @@
 }
 .userstatus41{
     position: relative;
-}
-.userstatus41 p{
-    font-size: 15px;
-    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-.userstatuscircle1{
     width: 60px;
     height: 60px;
     border-radius: 50%;
     border: 3px solid grey;
     margin: 0;
     padding: 0;
-    line-height: 60px;
+}
+.userstatus41 p{
+    font-size: 15px;
+    color: white;
 }
 .box-left2{
     position: absolute;
-    left: 0px;
-    top: 0px;
+    left: -3px;
+    top: -3px;
     width: 33px;
     height: 66px;
     clip: rect(0 33px 66px 0);
@@ -396,8 +399,8 @@
 }
 .box-right2{
     position: absolute;
-    right: 0px;
-    top: 0px;
+    right: -3px;
+    top: -3px;
     width: 33px;
     height: 66px;
     overflow: hidden;
@@ -429,26 +432,24 @@
 }
 .userstatus61{
     position: relative;
-}
-.userstatus61 p{
-    font-size: 15px;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.userstatuscircle2{
     width: 60px;
     height: 60px;
     border-radius: 50%;
     border: 3px solid grey;
     margin: 0;
     padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.userstatus61 p{
+    font-size: 15px;
+    color: white;
 }
 .box-left3{
     position: absolute;
-    left: 0px;
-    top: 0px;
+    left: -3px;
+    top: -3px;
     width: 33px;
     height: 66px;
     clip: rect(0 33px 66px 0);
@@ -456,8 +457,8 @@
 }
 .box-right3{
     position: absolute;
-    right: 0px;
-    top: 0px;
+    right: -3px;
+    top: -3px;
     width: 33px;
     height: 66px;
     overflow: hidden;
@@ -489,26 +490,24 @@
 }
 .workquality21{
     position: relative;
-}
-.workquality21 p{
-    font-size: 15px;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.workqualitycircle1{
     width: 60px;
     height: 60px;
     border-radius: 50%;
     border: 3px solid grey;
     margin: 0;
     padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.workquality21 p{
+    font-size: 15px;
+    color: white;
 }
 .box-left4{
     position: absolute;
-    left: 0px;
-    top: 0px;
+    left: -3px;
+    top: -3px;
     width: 33px;
     height: 66px;
     clip: rect(0 33px 66px 0);
@@ -516,8 +515,8 @@
 }
 .box-right4{
     position: absolute;
-    right: 0px;
-    top: 0px;
+    right: -3px;
+    top: -3px;
     width: 33px;
     height: 66px;
     overflow: hidden;
@@ -549,26 +548,24 @@
 }
 .workquality22{
     position: relative;
-}
-.workquality22 p{
-    font-size: 15px;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.workqualitycircle2{
     width: 60px;
     height: 60px;
     border-radius: 50%;
     border: 3px solid grey;
     margin: 0;
     padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.workquality22 p{
+    font-size: 15px;
+    color: white;
 }
 .box-left5{
     position: absolute;
-    left: 0px;
-    top: 0px;
+    left: -3px;
+    top: -3px;
     width: 33px;
     height: 66px;
     clip: rect(0 33px 66px 0);
@@ -576,8 +573,8 @@
 }
 .box-right5{
     position: absolute;
-    right: 0px;
-    top: 0px;
+    right: -3px;
+    top: -3px;
     width: 33px;
     height: 66px;
     overflow: hidden;
@@ -609,15 +606,9 @@
 }
 .workquality23{
     position: relative;
-}
-.workquality23 p{
-    font-size: 15px;
-    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-.workqualitycircle3{
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -625,10 +616,14 @@
     margin: 0;
     padding: 0;
 }
+.workquality23 p{
+    font-size: 15px;
+    color: white;
+}
 .box-left6{
     position: absolute;
-    left: 0px;
-    top: 0px;
+    left: -3px;
+    top: -3px;
     width: 33px;
     height: 66px;
     clip: rect(0 33px 66px 0);
@@ -636,8 +631,8 @@
 }
 .box-right6{
     position: absolute;
-    right: 0px;
-    top: 0px;
+    right: -3px;
+    top: -3px;
     width: 33px;
     height: 66px;
     overflow: hidden;
@@ -669,15 +664,9 @@
 }
 .workquality24{
     position: relative;
-}
-.workquality24 p{
-    font-size: 15px;
-    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-.workqualitycircle4{
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -685,10 +674,14 @@
     margin: 0;
     padding: 0;
 }
+.workquality24 p{
+    font-size: 15px;
+    color: white;
+}
 .box-left7{
     position: absolute;
-    left: 0px;
-    top: 0px;
+    left: -3px;
+    top: -3px;
     width: 33px;
     height: 66px;
     clip: rect(0 33px 66px 0);
@@ -696,8 +689,8 @@
 }
 .box-right7{
     position: absolute;
-    right: 0px;
-    top: 0px;
+    right: -3px;
+    top: -3px;
     width: 33px;
     height: 66px;
     overflow: hidden;
@@ -729,15 +722,9 @@
 }
 .workquality25{
     position: relative;
-}
-.workquality25 p{
-    font-size: 15px;
-    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-.workqualitycircle5{
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -745,10 +732,14 @@
     margin: 0;
     padding: 0;
 }
+.workquality25 p{
+    font-size: 15px;
+    color: white;
+}
 .box-left8{
     position: absolute;
-    left: 0px;
-    top: 0px;
+    left: -3px;
+    top: -3px;
     width: 33px;
     height: 66px;
     clip: rect(0 33px 66px 0);
@@ -756,8 +747,8 @@
 }
 .box-right8{
     position: absolute;
-    right: 0px;
-    top: 0px;
+    right: -3px;
+    top: -3px;
     width: 33px;
     height: 66px;
     overflow: hidden;
@@ -789,8 +780,6 @@
 }
 .footuserimg1{
     position: relative;
-}
-.footuserimg1{
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -840,28 +829,26 @@
     transform-origin: left center;
     transform: rotate(-81deg);
 }
-.capability1circle1{
+.capability1-circle1{
     position: relative;
-}
-.capability1circle1 p{
-    font-size: 15px;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.capability1circle11{
     width: 60px;
     height: 60px;
     border-radius: 50%;
     border: 3px solid grey;
     margin: 0;
     padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.capability1-circle1 p{
+    font-size: 15px;
+    color: white;
 }
 .box-left10{
     position: absolute;
-    left: 0px;
-    top: 0px;
+    left: -3px;
+    top: -3px;
     width: 33px;
     height: 66px;
     clip: rect(0 33px 66px 0);
@@ -869,8 +856,8 @@
 }
 .box-right10{
     position: absolute;
-    right: 0px;
-    top: 0px;
+    right: -3px;
+    top: -3px;
     width: 33px;
     height: 66px;
     overflow: hidden;
