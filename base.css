@@ -65,6 +65,7 @@ h1 {
     list-style: none;
     text-align: center;
     margin: 20px auto;
+    margin-bottom: 40px;
 }
 .footpicture{
     display:inline-block;

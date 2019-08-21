@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <style>
+      .circle-box{
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        border: 1px solid grey;
+        position: relative;
+        margin: 0;
+        padding: 0;
+      }
+      .box-left{
+        position: absolute;
+        left: -1px;
+        top: -1px;
+        width: 31px;
+        height: 62px;
+        clip: rect(0 31px 62px 0);
+        overflow: hidden;
+        background-color: black;
+      }
+      .box-right{
+        position: absolute;
+        right: -1px;
+        top: -1px;
+        width: 31px;
+        height: 62px;
+        overflow: hidden;
+        clip: rect(0 31px 62px 0);
+        background-color: black;
+      }
+      .circle-left{
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 30px;
+        height: 60px;
+        border-radius:50px 0 0 50px;
+        border: 1px solid blue;
+        border-right: transparent;
+        transform-origin: right center;
+        transform: rotate(180deg);
+      }
+      .circle-right{
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 30px;
+        height: 60px;
+        border-radius:0 50px 50px 0;
+        border: 1px solid blue;
+        border-left: transparent;
+        transform-origin: left center;
+        transform: rotate(-150deg);
+      }
+
+
+    </style>
+  </head>
+  <body>
+    <div class="circle-box">
+      <div class="box-left">
+        <div class="circle-left"></div>
+      </div>
+      <div class="box-right">
+        <div class="circle-right"></div>
+      </div>
+    </div>
+  </body>
+</html>
+
+
+
+<div class="sex-detail">
+    <div>
+        <img src="icon_male.png">
+    </div>
+    <div class="userage">36</div>
+    <div class="userpoint">97</div>
+</div>
+<div class="sex-detail2">
+    <p class="userimg2">性别</p>
+    <p class="userage2">年龄</p>
+    <p class="userpoint2">评分</p>
+</div>
