@@ -8,18 +8,21 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 .top-body{
-    height: 20px;
+    height: 25px;
     width: 100%;
     color: white;
     background-color: black;
     margin-bottom: 20px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(rgb(25, 38, 49) 0.3px, transparent 0),linear-gradient(to bottom,black,transparent 100%);
 }
 .top-list{
     list-style: none;
     display: flex;
     margin-bottom: 2px;
+    padding: 0;
 }
 .top-more{
     width: 15px;
@@ -30,15 +33,13 @@
     padding: 3px 0;
     background-color: white;
     margin-left: 5px;
-    margin-top: 3px;
 }
 .top-main{
     font-size: 10px;
-    margin-top: 3px;
 }
 .top-choose{
     font-size: 6px;
-    margin-right: 500px;
+    margin-right: 730px;
 }
 .username{
     font-size: 6px;
@@ -55,9 +56,9 @@
     margin-top: 7px;
 }
 .userinformation{
-    margin-left: 5px;
+    margin-left: 15px;
     border-radius: 5%;
-    background-color: rgba(60,60,60,0.8);
+    background-color: rgba(60,60,60,0.4);
     margin-bottom: 10px;
     padding-left: 20px;
     padding-right: 20px;
@@ -147,7 +148,7 @@
 }
 .members1 p{
     color: rgb(204, 212, 223);
-    font-size: 8px;
+    font-size: 6px;
 }
 .userinformation{
     width: 20%;
@@ -229,23 +230,27 @@
 }
 .workefficiency3,.workefficiency4{
     display: flex;
-    justify-content: space-between;
     margin-right: 35px;
     margin-bottom: 10px;
+    justify-content: space-between;
 }
 .workefficiency31,.workefficiency32,.workefficiency41,.workefficiency42{
     display: inline-block;
 }
 .workefficiency31 p,.workefficiency32 p{
     margin-top: 8px;
+    text-align: left;
 }
 .workefficiency32,.workefficiency42{
-    text-align: right;
+    text-align: left;
 }
 .marketcp{
     flex: 0 0 40%;
     border-left: 0.5px solid rgb(104,109,115);
     margin-bottom: 10px;
+}
+.footexp{
+    text-align: center;
 }
 .marketcp1{
     margin-bottom: 10px;
@@ -272,6 +277,10 @@
     color: aliceblue;
     line-height: 40px;
 }
+.userstatus1 p{
+    color: rgb(204, 212, 223);
+    font-size: 8px;
+}
 .user-statusp{
     color: rgba(240, 248, 255, 0.555);
     font-size: 5px;
@@ -289,12 +298,12 @@
     margin-bottom: 15px;
 }
 .user-status5{
-    font-size: 7px;
+    font-size: 6px;
     margin-bottom: 20px;
     margin-top: 5px;
 }
 .user-status7{
-    font-size: 7px;
+    font-size: 6px;
     margin-bottom: 15px;
     margin-top: 5px;
 }
@@ -313,7 +322,7 @@
 }
 .work-num p{
     color: white;
-    font-size: 7px;
+    font-size: 6px;
     text-align: center;
 }
 .capability1-circle2{
