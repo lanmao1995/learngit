@@ -3,8 +3,8 @@
     flex-direction: column;
     justify-content: flex-start;
     background-color: rgb(15,20,24);
-    background-image: linear-gradient(rgb(25, 38, 49) 0.3px, transparent 0),linear-gradient(to right, rgb(25, 38, 49) 0.3px, transparent 0);
-    background-size: 50px 50px;
+    background-image: linear-gradient(rgb(25, 38, 49) 0.5px, transparent 0),linear-gradient(to right, rgb(25, 38, 49) 0.5px, transparent 0);
+    background-size: 60px 60px;
     font-family: Arial, Helvetica, sans-serif;
 }
 .top-body{
@@ -21,8 +21,10 @@
 .top-list{
     list-style: none;
     display: flex;
-    margin-bottom: 2px;
     padding: 0;
+    font-size: 8px;
+    margin-right: 730px;
+    align-items: center;
 }
 .top-more{
     width: 15px;
@@ -35,13 +37,7 @@
     margin-left: 5px;
 }
 .top-main{
-    font-size: 10px;
-}
-.top-choose{
-    font-size: 6px;
-    margin-right: 730px;
-    display: flex;
-    align-items: center;
+    font-size: 12px;
 }
 .username{
     font-size: 6px;
@@ -67,8 +63,8 @@
     padding-right: 20px;
 }
 .foot-img img{
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     display: flex;
     border-radius: 50%;
     align-items: center;
@@ -77,9 +73,8 @@
 }
 .user-name1{
     text-align: center;
-    font-size: 7px;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    font-size: 12px;
+    margin-top: 10px;
     color: white;
 }
 .user-sexm{
@@ -95,12 +90,12 @@
 .sex-picture{
     display: flex;
     justify-content: center;
-    margin-top: 21px;
-    margin-bottom: 21px;
+    margin-top: 33px;
+    margin-bottom: 31px;
 }
 .sex-picture img{
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
 }
 .user-age{
     border-left: 1px solid rgb(104,109,115);
@@ -108,10 +103,10 @@
     text-align: center;
 }
 .user-age p,.user-point p{
-    font-size: 20px;
+    font-size: 30px;
 }
 .user-img2 p,.user-age2 p,.user-point2 p{
-    font-size: 6px;
+    font-size: 10px;
     color: white;
     text-align: center;
 }
@@ -123,35 +118,35 @@
 .login-time{
     text-align: center;
     color: #ffffff;
-    font-size: 8px;
+    font-size: 12px;
     border-bottom: 1px solid rgb(104,109,115);
     margin-top: 13px;
     padding-bottom: 15px;
     margin-bottom: 15px;
 }
 .userp{
-    font-size: 7px;
+    font-size: 10px;
     color: rgb(224, 224, 224);
     margin-bottom: 2px;
 }
 .user-actep{
     color: rgb(89,159,196);
-    font-size: 10px;
+    font-size: 18px;
     margin-bottom: 15px;
 }
 .user-recordep{
     color: rgb(186,108,83);
-    font-size: 10px;
+    font-size: 18px;
     margin-bottom: 15px;
 }
 .user-piontep{
     color: rgb(183,99,117);
-    font-size: 8px;
+    font-size: 18px;
     margin-top: 5px;
 }
 .members1 p{
     color: rgb(204, 212, 223);
-    font-size: 6px;
+    font-size: 10px;
 }
 .userinformation{
     width: 20%;
@@ -192,43 +187,43 @@
 }
 .workefficiency21{
     color: rgb(90,197,252);
-    font-size: 20px;
+    font-size: 40px;
 }
 .workefficiency22{
     color: rgb(90,197,252);
-    font-size: 10px;
+    font-size: 20px;
 }
 .workefficiency311{
     margin-top: 15px;
-    font-size: 20px;
+    font-size: 40px;
     color: rgb(183,99,117);
 }
 .workefficiency312{
     color: rgb(183,99,117);
-    font-size: 10px;
+    font-size: 20px;
 }
 .workefficiency321{
     color: rgb(0, 174, 255);
-    font-size: 20px;
+    font-size: 40px;
 }
 .workefficiency322{
-    font-size: 10px;
+    font-size: 20px;
     color: rgb(0, 174, 255);
 }
 .workefficiency411{
-    font-size: 20px;
+    font-size: 40px;
     color: rgb(152,208,150);
 }
 .workefficiency412{
-    font-size: 10px;
+    font-size: 20px;
     color: rgb(152,208,150);
 }
 .workefficiency421{
-    font-size: 20px;
+    font-size: 40px;
     color: rgb(0, 174, 255);
 }
 .workefficiency422{
-    font-size: 10px;
+    font-size: 20px;
     color: rgb(0, 174, 255);
 }
 .workefficiency3,.workefficiency4{
@@ -252,8 +247,9 @@
     border-left: 0.5px solid rgb(104,109,115);
     margin-bottom: 10px;
 }
-.footexp{
+.footexp p{
     text-align: center;
+    font-size: 12px;
 }
 .marketcp1{
     margin-bottom: 10px;
@@ -266,16 +262,17 @@
 .marketcp2{
     display: flex;
     justify-content:space-between;
-    margin-top: 50px;
-    margin-left: 30px;
+    margin-top: 70px;
+    margin-left: 50px;
 }
 .workquality1{
     margin-top: 18px;
     margin-bottom: 15px;
     font-size: 10px;
 }
-.foot-exp1{
+.foot-exp1 p{
     text-align: center;
+    font-size: 12px;
 }
 .capability1-circle1 p{
     text-align: center;
@@ -285,7 +282,7 @@
 }
 .userstatus1 p{
     color: rgb(204, 212, 223);
-    font-size: 10px;
+    font-size: 12px;
 }
 .user-statusp{
     color: rgba(240, 248, 255, 0.555);
@@ -296,22 +293,23 @@
 }
 .user-status2{
     color: rgb(0, 174, 255);
-    font-size: 15px;
-    margin-bottom: 10px;
+    font-size: 25px;
+    margin-bottom: 20px;
+    margin-top: 30px;
 }
 .user-status3{
-    font-size: 7px;
-    margin-bottom: 15px;
+    font-size: 10px;
+    margin-bottom: 20px;
 }
 .user-status5{
-    font-size: 6px;
-    margin-bottom: 20px;
-    margin-top: 5px;
+    font-size: 10px;
+    margin-bottom: 30px;
+    margin-top: 10px;
 }
 .user-status7{
-    font-size: 6px;
+    font-size: 10px;
     margin-bottom: 15px;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 .user-status11{
     font-size: 8px;
@@ -328,7 +326,13 @@
 }
 .work-num p{
     color: white;
-    font-size: 6px;
+    font-size: 12px;
+    text-align: center;
+}
+.footexp{
+    text-align: center;
+}
+.capability2{
     text-align: center;
 }
 .capability1-circle2{
@@ -336,11 +340,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 60px;
-    height: 60px;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
     border: 3px solid grey;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
 }
 .capability1-circle2 p{
@@ -351,26 +355,26 @@
     position: absolute;
     left: -3px;
     top: -3px;
-    width: 33px;
-    height: 66px;
-    clip: rect(0 33px 66px 0);
+    width: 38px;
+    height: 76px;
+    clip: rect(0 38px 76px 0);
     overflow: hidden;
 }
 .box-right1{
     position: absolute;
     right: -3px;
     top: -3px;
-    width: 33px;
-    height: 66px;
+    width: 38px;
+    height: 76px;
     overflow: hidden;
-    clip: rect(0 33px 66px 0);
+    clip: rect(0 38px 76px 0);
 }
 .circle-left1{
     position: absolute;
     top: 0px;
     left: 0px;
-    width: 30px;
-    height: 60px;
+    width: 35px;
+    height: 70px;
     border-radius:50px 0 0 50px;
     border: 3px solid rgb(0, 174, 255);
     border-right: transparent;
@@ -381,8 +385,8 @@
     position: absolute;
     top: 0px;
     left: 0px;
-    width: 30px;
-    height: 60px;
+    width: 35px;
+    height: 70px;
     border-radius:0 50px 50px 0;
     border: 3px solid rgb(0, 174, 255);
     border-left: transparent;
@@ -394,8 +398,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 60px;
-    height: 60px;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
     border: 3px solid grey;
     margin: 0;
@@ -409,26 +413,26 @@
     position: absolute;
     left: -3px;
     top: -3px;
-    width: 33px;
-    height: 66px;
-    clip: rect(0 33px 66px 0);
+    width: 38px;
+    height: 76px;
+    clip: rect(0 38px 76px 0);
     overflow: hidden;
 }
 .box-right2{
     position: absolute;
     right: -3px;
     top: -3px;
-    width: 33px;
-    height: 66px;
+    width: 38px;
+    height: 76px;
     overflow: hidden;
-    clip: rect(0 33px 66px 0);
+    clip: rect(0 38px 76px 0);
 }
 .circle-left2{
     position: absolute;
     top: 0px;
     left: 0px;
-    width: 30px;
-    height: 60px;
+    width: 35px;
+    height: 70px;
     border-radius:50px 0 0 50px;
     border: 3px solid rgb(152,208,150);
     border-right: transparent;
@@ -439,8 +443,8 @@
     position: absolute;
     top: 0px;
     left: 0px;
-    width: 30px;
-    height: 60px;
+    width: 35px;
+    height: 70px;
     border-radius:0 50px 50px 0;
     border: 3px solid rgb(152,208,150);
     border-left: transparent;
@@ -449,8 +453,8 @@
 }
 .user-status61{
     position: relative;
-    width: 60px;
-    height: 60px;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
     border: 3px solid grey;
     margin: 0;
@@ -467,26 +471,26 @@
     position: absolute;
     left: -3px;
     top: -3px;
-    width: 33px;
-    height: 66px;
-    clip: rect(0 33px 66px 0);
+    width: 38px;
+    height: 76px;
+    clip: rect(0 38px 76px 0);
     overflow: hidden;
 }
 .box-right3{
     position: absolute;
     right: -3px;
     top: -3px;
-    width: 33px;
-    height: 66px;
+    width: 38px;
+    height: 76px;
     overflow: hidden;
-    clip: rect(0 33px 66px 0);
+    clip: rect(0 38px 76px 0);
 }
 .circle-left3{
     position: absolute;
     top: 0px;
     left: 0px;
-    width: 30px;
-    height: 60px;
+    width: 35px;
+    height: 70px;
     border-radius:50px 0 0 50px;
     border: 3px solid rgb(0, 174, 255);
     border-right: transparent;
@@ -497,8 +501,8 @@
     position: absolute;
     top: 0px;
     left: 0px;
-    width: 30px;
-    height: 60px;
+    width: 35px;
+    height: 70px;
     border-radius:0 50px 50px 0;
     border: 3px solid rgb(0, 174, 255);
     border-left: transparent;
@@ -507,8 +511,8 @@
 }
 .workquality21{
     position: relative;
-    width: 60px;
-    height: 60px;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
     border: 3px solid grey;
     margin: 0;
@@ -525,26 +529,26 @@
     position: absolute;
     left: -3px;
     top: -3px;
-    width: 33px;
-    height: 66px;
-    clip: rect(0 33px 66px 0);
+    width: 38px;
+    height: 76px;
+    clip: rect(0 38px 76px 0);
     overflow: hidden;
 }
 .box-right4{
     position: absolute;
     right: -3px;
     top: -3px;
-    width: 33px;
-    height: 66px;
+    width: 38px;
+    height: 76px;
     overflow: hidden;
-    clip: rect(0 33px 66px 0);
+    clip: rect(0 38px 76px 0);
 }
 .circle-left4{
     position: absolute;
     top: 0px;
     left: 0px;
-    width: 30px;
-    height: 60px;
+    width: 35px;
+    height: 70px;
     border-radius:50px 0 0 50px;
     border: 3px solid rgb(0, 174, 255);
     border-right: transparent;
@@ -555,8 +559,8 @@
     position: absolute;
     top: 0px;
     left: 0px;
-    width: 30px;
-    height: 60px;
+    width: 35px;
+    height: 70px;
     border-radius:0 50px 50px 0;
     border: 3px solid rgb(0, 174, 255);
     border-left: transparent;
@@ -565,8 +569,8 @@
 }
 .workquality22{
     position: relative;
-    width: 60px;
-    height: 60px;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
     border: 3px solid grey;
     margin: 0;
@@ -583,26 +587,26 @@
     position: absolute;
     left: -3px;
     top: -3px;
-    width: 33px;
-    height: 66px;
-    clip: rect(0 33px 66px 0);
+    width: 38px;
+    height: 76px;
+    clip: rect(0 38px 76px 0);
     overflow: hidden;
 }
 .box-right5{
     position: absolute;
     right: -3px;
     top: -3px;
-    width: 33px;
-    height: 66px;
+    width: 38px;
+    height: 76px;
     overflow: hidden;
-    clip: rect(0 33px 66px 0);
+    clip: rect(0 38px 76px 0);
 }
 .circle-left5{
     position: absolute;
     top: 0px;
     left: 0px;
-    width: 30px;
-    height: 60px;
+    width: 35px;
+    height: 70px;
     border-radius:50px 0 0 50px;
     border: 3px solid rgb(0, 174, 255);
     border-right: transparent;
@@ -613,8 +617,8 @@
     position: absolute;
     top: 0px;
     left: 0px;
-    width: 30px;
-    height: 60px;
+    width: 35px;
+    height: 70px;
     border-radius:0 50px 50px 0;
     border: 3px solid rgb(0, 174, 255);
     border-left: transparent;
@@ -626,8 +630,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 60px;
-    height: 60px;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
     border: 3px solid grey;
     margin: 0;
@@ -641,26 +645,26 @@
     position: absolute;
     left: -3px;
     top: -3px;
-    width: 33px;
-    height: 66px;
-    clip: rect(0 33px 66px 0);
+    width: 38px;
+    height: 76px;
+    clip: rect(0 38px 76px 0);
     overflow: hidden;
 }
 .box-right6{
     position: absolute;
     right: -3px;
     top: -3px;
-    width: 33px;
-    height: 66px;
+    width: 38px;
+    height: 76px;
     overflow: hidden;
-    clip: rect(0 33px 66px 0);
+    clip: rect(0 38px 76px 0);
 }
 .circle-left6{
     position: absolute;
     top: 0px;
     left: 0px;
-    width: 30px;
-    height: 60px;
+    width: 35px;
+    height: 70px;
     border-radius:50px 0 0 50px;
     border: 3px solid rgb(0, 174, 255);
     border-right: transparent;
@@ -671,8 +675,8 @@
     position: absolute;
     top: 0px;
     left: 0px;
-    width: 30px;
-    height: 60px;
+    width: 35px;
+    height: 70px;
     border-radius:0 50px 50px 0;
     border: 3px solid rgb(0, 174, 255);
     border-left: transparent;
@@ -684,8 +688,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 60px;
-    height: 60px;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
     border: 3px solid grey;
     margin: 0;
@@ -699,26 +703,26 @@
     position: absolute;
     left: -3px;
     top: -3px;
-    width: 33px;
-    height: 66px;
-    clip: rect(0 33px 66px 0);
+    width: 38px;
+    height: 76px;
+    clip: rect(0 38px 76px 0);
     overflow: hidden;
 }
 .box-right7{
     position: absolute;
     right: -3px;
     top: -3px;
-    width: 33px;
-    height: 66px;
+    width: 38px;
+    height: 76px;
     overflow: hidden;
-    clip: rect(0 33px 66px 0);
+    clip: rect(0 38px 76px 0);
 }
 .circle-left7{
     position: absolute;
     top: 0px;
     left: 0px;
-    width: 30px;
-    height: 60px;
+    width: 35px;
+    height: 70px;
     border-radius:50px 0 0 50px;
     border: 3px solid rgb(183,99,117);
     border-right: transparent;
@@ -729,8 +733,8 @@
     position: absolute;
     top: 0px;
     left: 0px;
-    width: 30px;
-    height: 60px;
+    width: 35px;
+    height: 70px;
     border-radius:0 50px 50px 0;
     border: 3px solid rgb(183,99,117);
     border-left: transparent;
@@ -742,8 +746,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 60px;
-    height: 60px;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
     border: 3px solid grey;
     margin: 0;
@@ -757,26 +761,26 @@
     position: absolute;
     left: -3px;
     top: -3px;
-    width: 33px;
-    height: 66px;
-    clip: rect(0 33px 66px 0);
+    width: 38px;
+    height: 76px;
+    clip: rect(0 38px 76px 0);
     overflow: hidden;
 }
 .box-right8{
     position: absolute;
     right: -3px;
     top: -3px;
-    width: 33px;
-    height: 66px;
+    width: 38px;
+    height: 76px;
     overflow: hidden;
-    clip: rect(0 33px 66px 0);
+    clip: rect(0 38px 76px 0);
 }
 .circle-left8{
     position: absolute;
     top: 0px;
     left: 0px;
-    width: 30px;
-    height: 60px;
+    width: 35px;
+    height: 70px;
     border-radius:50px 0 0 50px;
     border: 3px solid rgb(183,99,117);
     border-right: transparent;
@@ -787,8 +791,8 @@
     position: absolute;
     top: 0px;
     left: 0px;
-    width: 30px;
-    height: 60px;
+    width: 35px;
+    height: 70px;
     border-radius:0 50px 50px 0;
     border: 3px solid rgb(183,99,117);
     border-left: transparent;
@@ -797,8 +801,8 @@
 }
 .foot-img1{
     position: relative;
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
     border: 3px solid grey;
     margin: 0;
@@ -808,26 +812,26 @@
     position: absolute;
     left: -3px;
     top: -3px;
-    width: 33px;
-    height: 66px;
-    clip: rect(0 33px 66px 0);
+    width: 43px;
+    height: 86px;
+    clip: rect(0 43px 86px 0);
     overflow: hidden;
 }
 .box-right9{
     position: absolute;
     right: -3px;
     top: -3px;
-    width: 33px;
-    height: 66px;
+    width: 43px;
+    height: 86px;
     overflow: hidden;
-    clip: rect(0 33px 66px 0);
+    clip: rect(0 43px 86px 0);
 }
 .circle-left9{
     position: absolute;
     top: 0px;
     left: 0px;
-    width: 30px;
-    height: 60px;
+    width: 40px;
+    height: 80px;
     border-radius:50px 0 0 50px;
     border: 3px solid rgb(0, 174, 255);
     border-right: transparent;
@@ -838,8 +842,8 @@
     position: absolute;
     top: 0px;
     left: 0px;
-    width: 30px;
-    height: 60px;
+    width: 40px;
+    height: 80px;
     border-radius:0 50px 50px 0;
     border: 3px solid rgb(0, 174, 255);
     border-left: transparent;
@@ -848,8 +852,8 @@
 }
 .capability1-circle1{
     position: relative;
-    width: 60px;
-    height: 60px;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
     border: 3px solid grey;
     margin: 0;
@@ -866,26 +870,26 @@
     position: absolute;
     left: -3px;
     top: -3px;
-    width: 33px;
-    height: 66px;
-    clip: rect(0 33px 66px 0);
+    width: 38px;
+    height: 67px;
+    clip: rect(0 38px 76px 0);
     overflow: hidden;
 }
 .box-right10{
     position: absolute;
     right: -3px;
     top: -3px;
-    width: 33px;
-    height: 66px;
+    width: 38px;
+    height: 76px;
     overflow: hidden;
-    clip: rect(0 33px 66px 0);
+    clip: rect(0 38px 76px 0);
 }
 .circle-left10{
     position: absolute;
     top: 0px;
     left: 0px;
-    width: 30px;
-    height: 60px;
+    width: 35px;
+    height: 70px;
     border-radius:50px 0 0 50px;
     border: 3px solid rgb(0, 174, 255);
     border-right: transparent;
@@ -896,8 +900,8 @@
     position: absolute;
     top: 0px;
     left: 0px;
-    width: 30px;
-    height: 60px;
+    width: 35px;
+    height: 70px;
     border-radius:0 50px 50px 0;
     border: 3px solid rgb(0, 174, 255);
     border-left: transparent;
