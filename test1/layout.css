@@ -40,6 +40,8 @@
 .top-choose{
     font-size: 6px;
     margin-right: 730px;
+    display: flex;
+    align-items: center;
 }
 .username{
     font-size: 6px;
@@ -48,6 +50,7 @@
 .foot-body{
     display: flex;
     margin-bottom: 10px;
+    align-items: center;
 }
 .foot-img{
     display: flex;
@@ -179,8 +182,8 @@
     flex: 0 0 100%;
 
 }
-.workefficiency11{
-    color: white;
+.workefficiency1 p{
+    color: rgb(204, 212, 223);
     font-size: 10px;
     margin-bottom: 20px;
 }
@@ -257,6 +260,9 @@
     font-size: 10px;
     margin-left: 10px;
 }
+.marketcp1 p{
+    font-size: 10px;
+}
 .marketcp2{
     display: flex;
     justify-content:space-between;
@@ -279,7 +285,7 @@
 }
 .userstatus1 p{
     color: rgb(204, 212, 223);
-    font-size: 6px;
+    font-size: 10px;
 }
 .user-statusp{
     color: rgba(240, 248, 255, 0.555);
