@@ -393,60 +393,65 @@ body{
     background-image: url(images/application-scenarios.jpg);
     height: 600px;
     background-position: top center;
-    margin-top: 35px auto 0 auto;
+    margin-top: 35px;
 }
 .archive-it h1{
     font-size: 24px;
     margin: 0;
     color: rgb(82,90,108);
 }
+.archive-it{
+    margin: 60px auto;
+    min-width: 1400px;
+}
 .application-list{
-    width: 1300px;
+    width: 1400px;
     margin:auto;
     height: 600px;
     position: relative;
     list-style: none;
+    padding: 0;
 }
 .list-part1{
     position: absolute;
     width: 20%;
     text-align: right;
-    left: -35px;
+    left: -25px;
     top: 20px;
 }
 .list-part2{
     position: absolute;
     width: 20%;
     text-align: left;
-    left: 720px;
+    left: 750px;
     top: 90px;
 }
 .list-part3{
     position: absolute;
     width: 20%;
     text-align: right;
-    left: 860px;
+    left: 880px;
     top: 150px;
 }
 .list-part4{
     position: absolute;
     width: 20%;
     text-align: right;
-    left: 20px;
+    left: 50px;
     top: 390px;
 }
 .list-part5{
     position: absolute;
     width: 20%;
     text-align: left;
-    left: 630px;
+    left: 650px;
     top: 300px;
 }
 .list-part6{
     position: absolute;
     width: 20%;
     text-align: left;
-    left: 990px;
+    left: 1020px;
     top: 430px;
 }
 .application-part h2{
