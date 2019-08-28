@@ -226,6 +226,7 @@ body{
     margin: 0;
     padding: 0;
     text-align: center;
+    min-width: 1400px;
 }
 .roll-picture img{
     width: 100%;
@@ -237,6 +238,7 @@ body{
 .main{
     text-align: center;
     margin-top: 50px;
+    min-width: 1400px;
 }
 .sadf{
     text-align: center;
