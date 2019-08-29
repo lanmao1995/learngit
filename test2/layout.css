@@ -6,7 +6,6 @@ body{
     padding: 0;
     position: relative;
 }
-
 .topper{
     width: 100%;
     background-color: rgb(11, 16, 45);
@@ -248,11 +247,11 @@ body{
 .sadf h1{
     font-size: 24px;
     margin: 0;
-    color: rgb(82,90,108);
+    color: @font-color;
 }
 .sadf p{
     font-size: 16px;
-    color: rgb(82,90,108);
+    color: @font-color;
 }
 .contend-sadf{
     display: flex;
@@ -272,7 +271,7 @@ body{
 }
 .sadf-part h1{
     text-align: left;
-    color: rgb(82,90,108);
+    color: @font-color;
 }
 .sadf-part p{
     text-align: left;
@@ -351,11 +350,11 @@ body{
 .hlts h1{
     font-size: 24px;
     margin: 0;
-    color: rgb(82,90,108);
+    color: @font-color;
 }
 .hlts p{
     font-size: 16px;
-    color: rgb(82,90,108);
+    color: @font-color;
     margin-bottom: 40px;
 }
 .hlts{
@@ -400,7 +399,7 @@ body{
 .archive-it h1{
     font-size: 24px;
     margin: 0;
-    color: rgb(82,90,108);
+    color: @font-color;
 }
 .archive-it{
     margin: 60px auto;
@@ -488,13 +487,13 @@ body{
 .demand h1{
     text-align: center;
     font-size: 24px;
-    color: rgb(82,90,108);
+    color: @font-color;
     margin: 50px 0 0 0;
 }
 .demand p{
     text-align: center;
     font-size: 16px;
-    color: rgb(82,90,108);
+    color: @font-color;
     margin: 20px 0 0 0;
     line-height: 2;
 }
@@ -536,7 +535,7 @@ body{
 }
 .user-case h1{
     font-size: 24px;
-    color: rgb(82,90,108);
+    color: @font-color;
     margin: 0 0 20px 0;
 }
 .user-part{
@@ -550,7 +549,7 @@ body{
 .case-part p{
     text-align: left;
     font-size: 14px;
-    color: rgb(82,90,108);
+    color: @font-color;
     margin: 20px 0 0 0;
     line-height: 2;
 }
@@ -558,7 +557,7 @@ body{
     text-align: center;
     font-size: 18px;
     margin: 10px 0 0 0;
-    color: rgb(82,90,108);
+    color: @font-color;
 }
 .footer{
     min-width: 1400px;
