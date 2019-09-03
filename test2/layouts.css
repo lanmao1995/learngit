@@ -673,16 +673,16 @@ body {
   margin: 10px 0 0 0;
   color: #525a6c;
 }
-.footer {
+.tail {
   min-width: 1400px;
   margin: 0;
 }
-.footer .foot {
+.tail .foot {
   width: 100%;
   margin: 0;
   background-color: #0b102d;
 }
-.footer .foot .box {
+.tail .foot .box {
   width: 1400px;
   height: 100%;
   margin: 0 auto;
@@ -690,24 +690,24 @@ body {
   justify-content: space-around;
   align-items: flex-start;
 }
-.footer .foot .box a {
+.tail .foot .box a {
   cursor: pointer;
   font-size: 14px;
   color: aliceblue;
 }
-.footer .foot .box img {
+.tail .foot .box img {
   width: 180px;
   height: 160px;
   margin: auto 0;
 }
-.footer .foot .box div {
+.tail .foot .box div {
   margin-top: 30px;
   margin-bottom: 30px;
 }
-.footer .foot .box h2 {
+.tail .foot .box h2 {
   color: aliceblue;
   font-size: 20px;
 }
-.footer .foot .box a:hover {
+.tail .foot .box a:hover {
   color: #3981f7;
 }
