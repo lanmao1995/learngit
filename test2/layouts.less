@@ -68,7 +68,7 @@ body{
                     text-align: center;
                     top: 50*@length;
                     left: -250*@length;
-                    .case{
+                    .caser{
                         display: flex;
                         flex: 1;
                         flex-wrap: wrap;
@@ -239,7 +239,7 @@ body{
                     }
                 }
             }
-            .resources{
+            .resource{
                 position: relative;
                 .specific{
                     display: none;
@@ -269,6 +269,9 @@ body{
                             }
                             a:hover{
                                 color: @text-color;
+                            }
+                            .thread{
+                                border-bottom: 1px solid #5f5f55;
                             }
                         }
                         .left{
@@ -334,7 +337,7 @@ body{
                         }
                     }
                 }
-                &:hover .resources-detail{
+                &:hover .specific{
                     display: block;
                 }
             }
@@ -640,14 +643,9 @@ body{
             }
             tr:nth-child(2n-1){
                 background-color: rgb(248,248,249);
-                &:hover {
-                    background-color: rgb(237,247,254);
-                }
             }
-            tr:nth-child(2n){
-                &:hover {
-                    background-color: rgb(237,247,254);
-                }
+            tr:nth-child(n+2):hover{
+                background-color: rgb(237,247,254);
             }
         }
     }

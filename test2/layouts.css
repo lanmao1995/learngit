@@ -67,7 +67,7 @@ body {
   top: 50px;
   left: -250px;
 }
-.topper .nav .mainer .service .detail .case {
+.topper .nav .mainer .service .detail .caser {
   display: flex;
   flex: 1;
   flex-wrap: wrap;
@@ -76,25 +76,25 @@ body {
   border-radius: 10px;
   padding: 10px;
 }
-.topper .nav .mainer .service .detail .case .portion {
+.topper .nav .mainer .service .detail .caser .portion {
   flex: 0 0 30%;
   margin-left: 15px;
 }
-.topper .nav .mainer .service .detail .case .portion p {
+.topper .nav .mainer .service .detail .caser .portion p {
   text-align: left;
   font-size: 16px;
 }
-.topper .nav .mainer .service .detail .case .portion a {
+.topper .nav .mainer .service .detail .caser .portion a {
   font-size: 14px;
   color: #d0d0d0;
 }
-.topper .nav .mainer .service .detail .case .portion a:hover {
+.topper .nav .mainer .service .detail .caser .portion a:hover {
   color: #3981f7;
 }
-.topper .nav .mainer .service .detail .case .portion .line {
+.topper .nav .mainer .service .detail .caser .portion .line {
   border-bottom: 1px solid #5f5f55;
 }
-.topper .nav .mainer .service .detail .case:before {
+.topper .nav .mainer .service .detail .caser:before {
   content: "";
   position: absolute;
   bottom: 100%;
@@ -235,10 +235,10 @@ body {
   margin-left: 7px;
   margin-bottom: 3px;
 }
-.topper .nav .mainer .resources {
+.topper .nav .mainer .resource {
   position: relative;
 }
-.topper .nav .mainer .resources .specific {
+.topper .nav .mainer .resource .specific {
   display: none;
   position: absolute;
   min-width: 400px;
@@ -248,7 +248,7 @@ body {
   top: 50px;
   left: -160px;
 }
-.topper .nav .mainer .resources .specific .casket {
+.topper .nav .mainer .resource .specific .casket {
   background-color: #0b102d;
   box-shadow: 0 8px 16px 0 rgba(11, 16, 45, 0.6);
   display: flex;
@@ -256,28 +256,31 @@ body {
   padding: 10px;
   border-radius: 10px;
 }
-.topper .nav .mainer .resources .specific .casket .casketer {
+.topper .nav .mainer .resource .specific .casket .casketer {
   flex-grow: 1;
 }
-.topper .nav .mainer .resources .specific .casket .casketer p {
+.topper .nav .mainer .resource .specific .casket .casketer p {
   text-align: left;
   font-size: 16px;
 }
-.topper .nav .mainer .resources .specific .casket .casketer a {
+.topper .nav .mainer .resource .specific .casket .casketer a {
   font-size: 14px;
   color: #d0d0d0;
 }
-.topper .nav .mainer .resources .specific .casket .casketer a:hover {
+.topper .nav .mainer .resource .specific .casket .casketer a:hover {
   color: #3981f7;
 }
-.topper .nav .mainer .resources .specific .casket .left {
+.topper .nav .mainer .resource .specific .casket .casketer .thread {
+  border-bottom: 1px solid #5f5f55;
+}
+.topper .nav .mainer .resource .specific .casket .left {
   margin-left: 10px;
 }
-.topper .nav .mainer .resources .specific .casket .right {
+.topper .nav .mainer .resource .specific .casket .right {
   margin-right: 10px;
   margin-left: 60px;
 }
-.topper .nav .mainer .resources .specific .casket:before {
+.topper .nav .mainer .resource .specific .casket:before {
   content: "";
   position: absolute;
   bottom: 100%;
@@ -292,19 +295,19 @@ body {
   border-bottom-color: currentColor;
   color: rgba(11, 16, 45, 0.8);
 }
-.topper .nav .mainer .resources .development {
+.topper .nav .mainer .resource .development {
   height: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 0 10px;
 }
-.topper .nav .mainer .resources .development .arrowUp {
+.topper .nav .mainer .resource .development .arrowUp {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.topper .nav .mainer .resources .development .arrowUp::after {
+.topper .nav .mainer .resource .development .arrowUp::after {
   content: "";
   display: inline-block;
   width: 7px;
@@ -316,10 +319,10 @@ body {
   margin-left: 7px;
   margin-bottom: 3px;
 }
-.topper .nav .mainer .resources .development:hover {
+.topper .nav .mainer .resource .development:hover {
   color: #3981f7;
 }
-.topper .nav .mainer .resources .development:hover .arrowUp::after {
+.topper .nav .mainer .resource .development:hover .arrowUp::after {
   content: "";
   display: inline-block;
   width: 7px;
@@ -331,7 +334,7 @@ body {
   margin-left: 7px;
   margin-bottom: 3px;
 }
-.topper .nav .mainer .resources:hover .resources-detail {
+.topper .nav .mainer .resource:hover .specific {
   display: block;
 }
 .topper .nav .mainer .plus .piece {
@@ -636,10 +639,7 @@ body {
 .demand .problem .faq tr:nth-child(2n-1) {
   background-color: #f8f8f9;
 }
-.demand .problem .faq tr:nth-child(2n-1):hover {
-  background-color: #edf7fe;
-}
-.demand .problem .faq tr:nth-child(2n):hover {
+.demand .problem .faq tr:nth-child(n+2):hover {
   background-color: #edf7fe;
 }
 .case {
