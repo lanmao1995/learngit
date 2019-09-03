@@ -26,8 +26,11 @@ body {
   background-color: #0b102d;
   z-index: 10;
 }
-.topper .nav .logo img {
+.topper .nav .logo {
   height: 50px;
+}
+.topper .nav .logo img {
+  width: 194px;
   margin: 0;
   padding: 0;
   cursor: pointer;
@@ -389,6 +392,7 @@ body {
   margin: 60px auto;
 }
 .technology h1 {
+  width: 100%;
   font-size: 24px;
   margin: 0;
   color: #525a6c;
@@ -405,16 +409,15 @@ body {
   justify-content: space-between;
 }
 .technology .contend .part {
-  flex: 0 0 31%;
+  flex: 0 0 32%;
   margin-top: 40px;
-  padding: 0 12px;
 }
 .technology .contend .part .box {
-  box-shadow: 0 0 4px #cccccc;
+  box-shadow: 0 0 5px #cccccc;
   height: 180px;
   display: flex;
   margin: 0;
-  padding: 50px 30px 50px 12px;
+  padding: 50px 30px 40px 12px;
 }
 .technology .contend .part .box h1 {
   text-align: left;
@@ -428,9 +431,12 @@ body {
 }
 .technology .contend .part .box .photograph img {
   width: 36px;
-  height: 36px;
   margin-right: 20px;
   opacity: 0.7;
+}
+.technology .contend .microphone,
+.technology .contend .happy {
+  padding: 0 7px;
 }
 .resolvent {
   width: 1400px;
@@ -451,7 +457,6 @@ body {
   flex: 1;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 0 5px;
 }
 .resolvent .solution .part {
   position: relative;
@@ -474,6 +479,7 @@ body {
   border-style: none;
 }
 .resolvent .solution .part h1 {
+  text-align: center;
   margin-top: 40px;
   font-size: 24px;
   color: #fff;
@@ -616,7 +622,7 @@ body {
   margin-top: 40px;
 }
 .demand .problem .faq {
-  width: 1380px;
+  width: 1400px;
   border: 1px solid #ececec;
   border-spacing: 0;
   text-align: center;
@@ -624,6 +630,12 @@ body {
 }
 .demand .problem .faq tr {
   line-height: 3;
+}
+.demand .problem .faq tr:nth-child(2n-1) {
+  background-color: #f8f8f9;
+}
+.demand .problem .faq tr:nth-child(n+2):hover {
+  background-color: #edf7fe;
 }
 .demand .problem .faq th {
   font-size: 12px;
@@ -635,12 +647,6 @@ body {
   border-top: 1px solid #ececec;
   font-size: 12px;
   color: #515a6e;
-}
-.demand .problem .faq tr:nth-child(2n-1) {
-  background-color: #f8f8f9;
-}
-.demand .problem .faq tr:nth-child(n+2):hover {
-  background-color: #edf7fe;
 }
 .case {
   text-align: center;

@@ -30,11 +30,14 @@ body{
         height: 50*@length;
         background-color: @back-color;
         z-index: 10;
-        .logo img{
+        .logo{
             height: 50*@length;
-            margin: 0;
-            padding: 0;
-            cursor: pointer;
+            img{
+                width: 194*@length;
+                margin: 0;
+                padding: 0;
+                cursor: pointer;
+            }
         }
         .mainer{
             list-style: none;
@@ -91,7 +94,7 @@ body{
                                 color: @text-color;
                             }
                             .line{
-                                border-bottom: 1px solid #5f5f55;
+                                border-bottom: 1*@length solid #5f5f55;
                             }
                         }
                         &:before{
@@ -271,7 +274,7 @@ body{
                                 color: @text-color;
                             }
                             .thread{
-                                border-bottom: 1px solid #5f5f55;
+                                border-bottom: 1*@length solid #5f5f55;
                             }
                         }
                         .left{
@@ -363,7 +366,7 @@ body{
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                padding: 0 5px;
+                padding: 0 5*@length;
             }
             a{
                 cursor: pointer;
@@ -396,9 +399,10 @@ body{
     width: @width;
     margin: 60*@length auto;
     h1{
-    font-size: @font-size*1.5;
-    margin: 0;
-    color: @font-color;
+        width: 100%;
+        font-size: @font-size*1.5;
+        margin: 0;
+        color: @font-color;
     }
     p{
         font-size:@font-size;
@@ -406,20 +410,19 @@ body{
         margin: 16*@length 0 0 0;
     }
     .contend{
-    display: flex;
-    flex-wrap: wrap;
-    flex: 1;
-    justify-content: space-between;
+        display: flex;
+        flex-wrap: wrap;
+        flex: 1;
+        justify-content: space-between;
         .part{
-            flex:0 0 31%;
-            margin-top: 40px;
-            padding: 0 12px;
+            flex:0 0 32%;
+            margin-top: 40*@length;
             .box{
-                    box-shadow: 0 0 4*@length #ccc;
+                    box-shadow: 0 0 5*@length #ccc;
                     height: 180*@length;
                     display: flex;
                     margin: 0;
-                    padding: 50px 30px 50px 12px;
+                    padding: 50*@length 30*@length 40*@length 12*@length;
                 h1{
                     text-align: left;
                     color: @font-color;
@@ -432,11 +435,13 @@ body{
                 }
                 .photograph img{
                     width: 36*@length;
-                    height: 36*@length;
                     margin-right: 20*@length;
                     opacity: 0.7;
                 }
             }
+        }
+        .microphone,.happy{
+            padding: 0 7*@length;
         }
     }
 }
@@ -458,7 +463,6 @@ body{
         flex: 1;
         flex-wrap: wrap;
         justify-content: center;
-        margin: 0 5*@length;
         .part{
             position: relative;
             overflow: hidden;
@@ -479,20 +483,21 @@ body{
                 border-style: none;
             }
             h1{
-            margin-top: 40*@length;
-            font-size: @font-size*1.5;
-            color: #fff;
-            padding: 80*@length 30*@length 0 30*@length;
+                text-align: center;
+                margin-top: 40*@length;
+                font-size: @font-size*1.5;
+                color: #fff;
+                padding: 80*@length 30*@length 0 30*@length;
             }
             p{
-            font-size: @font-size*0.875;
-            color: #fff;
-            text-align: left;
-            padding: 0 20*@length 30*@length 20*@length;
-            display: none;
+                font-size: @font-size*0.875;
+                color: #fff;
+                text-align: left;
+                padding: 0 20*@length 30*@length 20*@length;
+                display: none;
             }
             .content{
-            z-index: 1;
+                z-index: 1;
             }
             &:hover .content p{
                 display: block;
@@ -622,13 +627,19 @@ body{
         justify-content: center;
         margin-top: 40*@length;
         .faq{
-            width: 1380*@length;
+            width: @width;
             border:1*@length solid rgb(236,236,236);
             border-spacing: 0;
             text-align: center;
             margin: 0;
             tr{
                 line-height: 3;
+                &:nth-child(2n-1){
+                    background-color: rgb(248,248,249);
+                }
+                &:nth-child(n+2):hover{
+                    background-color: rgb(237,247,254);
+                }
             }
             th{
                 font-size: @font-size*0.75;
@@ -640,12 +651,6 @@ body{
                 border-top:1*@length solid rgb(236,236,236);
                 font-size: @font-size*0.75;
                 color:#515a6e;
-            }
-            tr:nth-child(2n-1){
-                background-color: rgb(248,248,249);
-            }
-            tr:nth-child(n+2):hover{
-                background-color: rgb(237,247,254);
             }
         }
     }
